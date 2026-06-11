@@ -1,0 +1,60 @@
+{
+  "name": "heytea-skill",
+  "display_name": "喜茶 HEYTEA",
+  "version": "0.1.0",
+  "description": "喜茶官方信息 Skill — 产品查询、口味推荐、门店信息、会员体系、联名历史，一问就知道。",
+  "author": "LEYEX",
+  "license": "MIT",
+  "keywords": [
+    "喜茶", "HEYTEA", "奶茶", "茶饮", "芝士茶", "果茶",
+    "多肉葡萄", "波波冰", "菜单", "推荐饮品", "门店", "会员", "积分"
+  ],
+  "mcp_server": {
+    "url": "https://YOUR_DEPLOY_URL/mcp",
+    "transport": "streamable-http",
+    "auth": "none"
+  },
+  "tools": [
+    {
+      "name": "get_menu",
+      "description": "获取喜茶完整菜单"
+    },
+    {
+      "name": "recommend_drink",
+      "description": "按口味偏好推荐饮品"
+    },
+    {
+      "name": "get_product_detail",
+      "description": "查询某款产品详情"
+    },
+    {
+      "name": "get_customization_guide",
+      "description": "糖度 & 冰量定制指南"
+    },
+    {
+      "name": "get_store_info",
+      "description": "门店城市 & 点单方式"
+    },
+    {
+      "name": "get_membership_info",
+      "description": "会员 & 积分体系"
+    },
+    {
+      "name": "get_collaboration_info",
+      "description": "联名合作历史"
+    }
+  ],
+  "platforms": [
+    "github",
+    "gitee",
+    "clawhub"
+  ],
+  "mcp_config_example": {
+    "mcpServers": {
+      "heytea": {
+        "type": "streamablehttp",
+        "url": "https://YOUR_DEPLOY_URL/mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "heytea-skill",
+  "version": "0.1.0",
+  "description": "喜茶 HEYTEA AI Skill — MCP Server + CLI",
+  "type": "module",
+  "scripts": {
+    "dev": "cd server && npm run dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "hono": "^4.5.0"
+  },
+  "devDependencies": {
+    "@hono/node-server": "^2.0.4",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
